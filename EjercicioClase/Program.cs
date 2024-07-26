@@ -15,6 +15,9 @@ namespace EjercicioClase
             IronMan.identidadSecreta = "Tony Stark";
             IronMan.ciudad = "Malibu";
             IronMan.volar = true;
+            IronMan.poder = "Armadura";
+            IronMan.descripcion = "Armadura que da super fuerza, permite volar y atacar con armas";
+            IronMan.nivel = "7";
             IronMan.Imprimir();
 
             Console.WriteLine();
@@ -24,6 +27,9 @@ namespace EjercicioClase
             Thor.identidadSecreta = "Thor Odinson";
             Thor.ciudad = "Asgard";
             Thor.volar = true;
+            Thor.poder = "Mjolnir";
+            Thor.descripcion = "Martillo magico que permite volar, lanzar rayos y que solo puede ser usado por Thor";
+            Thor.nivel = "8";
             Thor.Imprimir();
 
             Console.WriteLine();
@@ -33,6 +39,9 @@ namespace EjercicioClase
             CapitanAmerica.identidadSecreta = "Steve Rogers";
             CapitanAmerica.ciudad = "Nueva York";
             CapitanAmerica.volar = false;
+            CapitanAmerica.poder = "Super Soldado y Escudo";
+            CapitanAmerica.descripcion = "Super fuerza y escudo que es practicamente indestructible";
+            CapitanAmerica.nivel = "6";
             CapitanAmerica.Imprimir();
 
             Console.WriteLine();
